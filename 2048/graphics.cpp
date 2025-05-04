@@ -66,7 +66,7 @@ void DrawGameOverMessage(int score)
 {
     std::string msg = "Diem cua ban la: " + to_string(score) + ". Nhan ENTER de choi lai.Nhan Q de ket thuc";
 
-    // Đổi tên biến surface thành msgSurface để tránh trùng với biến toàn cục
+    // tránh trùng với biến toàn cục
     SDL_Surface* msgSurface = TTF_RenderText_Solid(font, msg.c_str(), FONT_COLOR);
     if (!msgSurface) {
         SDL_Log("Failed to render game over message: %s", TTF_GetError());
