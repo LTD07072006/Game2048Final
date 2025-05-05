@@ -434,12 +434,11 @@ void play_2048() {
                             break;
                         }
                     }
-                    SDL_Delay(16);
+                    SDL_Delay(20);
                 }
-                SDL_Delay(50);
+                SDL_Delay(35);
             }
         }
     }
-    SDL_RenderPresent(renderer);
     SDL_Delay(16);
 }
