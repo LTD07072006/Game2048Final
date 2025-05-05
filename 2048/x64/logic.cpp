@@ -436,7 +436,7 @@ void play_2048() {
                     }
                     SDL_Delay(20);
                 }
-                SDL_Delay(35);
+                SDL_Delay(45);
             }
         }
     }
